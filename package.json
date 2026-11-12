@@ -16,13 +16,18 @@
   "main": "dist/app.js",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node app.ts",
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/app.ts",
     "start": "node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/node": "^26.6.6",
+    "nodemon": "^3.1.11",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
   }
 }
