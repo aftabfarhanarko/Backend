@@ -1,0 +1,28 @@
+{
+  "name": "typescript-oop",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "",
+  "homepage": "https://github.com/aftabfarhanarko/TypeScript-OOP#readme",
+  "bugs": {
+    "url": "https://github.com/aftabfarhanarko/TypeScript-OOP/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aftabfarhanarko/TypeScript-OOP.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node app.ts",
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
